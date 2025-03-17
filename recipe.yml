@@ -1,0 +1,16 @@
+name: Varbase Privacy
+description: A recipe that provides default cookie consent options and privacy settings.
+type: Varbase
+install:
+  - klaro
+config:
+  actions:
+    user.role.anonymous:
+      grantPermissions:
+        - 'use klaro'
+    user.role.authenticated:
+      grantPermissions:
+        - 'use klaro'
+    user.role.site_admin:
+      grantPermissions:
+        - 'administer klaro'
