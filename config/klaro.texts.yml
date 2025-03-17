@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: FHr6psQnRtYvXa9wwVyQsT3ytUtv2w9OvbvbdMDq4a0
 langcode: en
 consentModal:
   title: 'Use of personal data and cookies'
@@ -9,7 +7,7 @@ consentModal:
     name: 'privacy policy'
     text: |
       To learn more, please read our {privacyPolicy}.
-    url: 'internal:/<front>'
+    url: 'internal:/privacy-policy'
 consentNotice:
   title: 'Use of personal data and cookies'
   changeDescription: 'There were changes since your last visit, please update your consent.'

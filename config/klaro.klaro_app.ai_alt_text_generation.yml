@@ -2,8 +2,8 @@ langcode: en
 status: false
 dependencies: {  }
 id: ai_alt_text_generation
-label: 'automatically generate alt text for images'
-description: 'Utilizes AI to automatically generate alt text for images, improving accessibility and SEO rankings, ensuring compliance with web accessibility standards.'
+label: 'Utilizes AI to automatically generate alt text for images'
+description: 'Improving accessibility and SEO rankings, ensuring compliance with web accessibility standards.'
 default: false
 purposes:
   - cms
@@ -20,4 +20,4 @@ callback_code: ''
 wrapper_identifier:
   - .ai-alt-text-generation
 attachments: {  }
-weight: 0
+weight: 1

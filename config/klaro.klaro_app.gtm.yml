@@ -23,4 +23,4 @@ callback_code: ''
 wrapper_identifier: {  }
 attachments:
   - gtm
-weight: 2
+weight: -6
