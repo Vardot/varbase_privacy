@@ -3,6 +3,8 @@ description: A recipe that provides default cookie consent options and privacy s
 type: Varbase
 install:
   - klaro
+  - menu_link_attributes
+  - menu_link_content
 config:
   actions:
     user.role.anonymous:

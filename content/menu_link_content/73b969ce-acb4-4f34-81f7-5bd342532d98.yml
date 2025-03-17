@@ -16,7 +16,7 @@ default:
       value: footer
   link:
     -
-      uri: 'internal:<front>'
+      uri: 'internal:#'
       title: ''
       options:
         attributes:
