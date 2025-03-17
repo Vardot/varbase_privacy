@@ -1,0 +1,23 @@
+langcode: en
+status: false
+dependencies: {  }
+id: ai_alt_text_generation
+label: 'automatically generate alt text for images'
+description: 'Utilizes AI to automatically generate alt text for images, improving accessibility and SEO rankings, ensuring compliance with web accessibility standards.'
+default: false
+purposes:
+  - cms
+cookies: {  }
+required: false
+opt_out: false
+only_once: false
+contextual_consent_only: false
+contextual_consent_text: 'Transfer image and meta data to chosen AI service?'
+info_url: ''
+privacy_policy_url: ''
+javascripts: {  }
+callback_code: ''
+wrapper_identifier:
+  - .ai-alt-text-generation
+attachments: {  }
+weight: 0
